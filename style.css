@@ -83,5 +83,44 @@
     min-width: 400px;
     height: 500px;
     border-radius: 10px;
-    box-shadow: 5px 3px 5px #a7a197;
+    box-shadow: 5px 5px 5px #a7a197;
+}
+
+/* styles for agents section */
+.agents {
+    color: #ece8e1;
+    background-color: #0f1923;
+    text-align: center;
+    padding: 20px;
+}
+
+.agents .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 0px;
+    gap: 50px;
+}
+
+.agents .card {
+    border: 1px solid #ece8e1;
+    background-color: #ece8e1;
+    color: #0f1923;
+    border-radius: 5px;
+    box-shadow: 5px 5px 8px #273e55;
+}
+
+.agents h2 {
+    font-size: 50px;
+}
+
+.agents img {
+    width: 300px;
+    height: 300px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.agents ul {
+    list-style-type: none;
 }
