@@ -9,6 +9,8 @@
 /* styles for the navigation bar */
 .nav-bar {
     background-color: #111;
+    position: sticky;
+    top: 0px;
 }
 
 .nav-bar .container {
