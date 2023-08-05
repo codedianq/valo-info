@@ -43,10 +43,15 @@
     text-decoration: none;
 }
 
+.nav-bar a:active {
+    color: #62a3e4;
+}
+
 /* styles for header */
 .header {
     background-color: #ece8e1;
     color: #0f1923;
+    padding: 20px;
 }
 
 .header .container {
@@ -123,4 +128,53 @@
 
 .agents ul {
     list-style-type: none;
+}
+
+/* styles for profile */
+.profile {
+    background-color: #ece8e1;
+    color: #0f1923;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile h2 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.profile ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.profile .container {
+    background-color: #0f1923;
+    color: #ece8e1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 50px;
+    border-radius: 10px;
+    width: 800px;
+}
+
+.profile button {
+    color: #0f1923;
+    background-color: #ece8e1;
+    padding: 10px 20px;
+    border-style: none;
+    border-radius: 2px;
+    font-weight: bolder;
+}
+
+.profile button:hover{
+    cursor: pointer;
+    background-color: #0f1923;
+    color: #ece8e1;
 }
