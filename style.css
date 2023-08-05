@@ -137,6 +137,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 20px 20px 60px 20px;
 }
 
 .profile h2 {
@@ -177,4 +178,37 @@
     cursor: pointer;
     background-color: #0f1923;
     color: #ece8e1;
+}
+
+/* styles for footer */
+.footer {
+    background-color: #111;
+    color: #f9f9f9;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    .header .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .profile .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .profile ul {
+        display: block;
+    }
+
+    .profile button {
+        margin-top: -40px;
+    }
 }
